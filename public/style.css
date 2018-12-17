@@ -1,0 +1,128 @@
+.app .pusher.content {
+    margin-top: 40px !important;
+    margin-right: 150px;
+    padding: 2em;
+}
+.app main.container {
+    margin-top: 40px !important;
+    padding: 2em 0;
+}
+.app .ui.sidebar {
+    margin-top: 40px !important;
+}
+.app .ui.form .field.has_job {
+    margin-left: 1em;
+    font-size: 0.9em;
+}
+
+/* .app .jobs-list > .job-entry {
+    border-bottom: 1px solid gray;
+}
+.app .jobs-list > .job-entry:last-child {
+    border-bottom: none;
+} */
+
+.app .admin .jobs-form .has_job {
+    border-top: 1px solid gray;
+    padding-top: 0.7em;
+}
+
+
+.app .jobs-list-wrapper .jobs-list-navigation {
+    font-size: 2em;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.app .jobs-list-wrapper .jobs-list-navigation > div {
+    margin: 0 .5em;
+    display: inline-block;
+}
+
+.app .jobs-list-wrapper .ui.dimmer .ui.loader {
+    top: 5%;
+}
+
+.app .jobs-list-wrapper .day-wrapper {
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.app .jobs-list-wrapper .day-date {
+    font-size: 2em;
+}
+.app .jobs-list-wrapper .day-sunday {
+    color: #db0000;
+}
+
+.app .jobs-list-wrapper .day-today {
+    background: #fff8e1;
+}
+
+.app .jobs-list-wrapper .state-deleted {
+    display: none;
+}
+
+.app .jobs-list-wrapper .parent-job {
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    padding: 1em;
+    border-radius: .3rem;
+    border: 1px solid rgba(34,36,38,.15);
+}
+
+.app .jobs-list-wrapper .child-jobs {
+    overflow: hidden; /* BUGFIX: not selectable content */
+    margin: 0;
+}
+
+.app .jobs-list-wrapper .child-jobs > .job-entry {
+    width: 25%;
+    min-width: 225px;
+    float: left;
+    margin: 0;
+    padding: 0 .5em .5em;
+    transform: scale(.9)
+}
+
+.app .jobs-list-wrapper .job-is-public-toggle {
+    transform: scale(.5);
+}
+
+.app .jobs-list-wrapper .job-is-closed-icon-wrapper {
+    margin: 0 .3em;
+}
+
+.app .jobs-list-wrapper .job-users-subscriptions {
+    padding: .3em .5em;
+    border-radius: .3rem;
+    font-size: .75em;
+    margin-left: 1em;
+}
+
+.app .jobs-list-wrapper .job-users-subscriptions.good {
+    background: #b2e8b2;
+}
+
+.app .jobs-list-wrapper .job-users-subscriptions.bad {
+    background: #eda1a1;
+}
+.app .jobs-list-wrapper .subscribed_users {
+    margin: .3em 0;
+}
+.app .jobs-list-wrapper .subscribed_users .label {
+    margin: .15em .3em .15em 0;
+}
+
+
+.ui.dropdown .scrolling.menu {
+    max-height: 10rem;
+}
+
+
+/*
+
+TODO delete transition effekt for class .delete-transition
+eg:
+transform: scale(0.1);
+transition: all 0.3s ease;
+
+}
+*/
