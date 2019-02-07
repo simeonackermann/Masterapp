@@ -6,7 +6,7 @@ require_once( './simpleCalDAV//SimpleCalDAVClient.php');
 
 try {
             $caldavClient = new SimpleCalDAVClient();
-            $caldavClient->connect('http://webkraut.de/remote.php/caldav/calendars/simi/caldavtest', 'simi', 'ow-megamix87');
+            $caldavClient->connect('http://webkraut.de/remote.php/caldav/calendars/simi/caldavtest', '', '');
             $arrayOfCalendars = $caldavClient->findCalendars();
             $caldavClient->setCalendar($arrayOfCalendars["caldavtest"]);
             $events = $caldavClient->getEvents('20181101T000000Z', '20181130T000000Z');
