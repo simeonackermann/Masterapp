@@ -145,10 +145,10 @@ END:VCALENDAR'
     private function getCalendars() {
         return [
             [
-                "url" => "http://webkraut.de/remote.php/caldav/calendars/simi/caldavtest",
-                "user" => "simi",
-                "password" => "ow-megamix87",
-                "calendar" => "caldavtest"
+                "url" => "",
+                "user" => "",
+                "password" => "",
+                "calendar" => ""
             ],
         ];
     }
